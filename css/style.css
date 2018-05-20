@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*Parallax scroll*/
+.parallax {
+    background-image: url('../img/flemming-fuchs-337954-unsplash.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* Middle section background*/
+.bg {
+    background-color: whitesmoke;
+} 
+
+/* Button spacing*/
+.btn {
+    margin-bottom: 10px;
+    margin-right:5px;
+}
+
+
+section {
+    margin: auto;
+    width: 100%;
+    padding: 80px 20px;
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    color: inherit;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* Centering text over parallax*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.footer {
+    margin: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: whitesmoke;
+    text-align: center;
+
+}
