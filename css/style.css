@@ -14,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: whitesmoke;
 }
 /* Middle section background*/
 .bg {
@@ -42,7 +42,7 @@ a {
 .icon {
     border-radius: 50%;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -68,4 +68,11 @@ a {
     color: whitesmoke;
     text-align: center;
 
+}
+
+.portfolio-item {
+    position: relative;
+    margin: 20px;
+    height: 100x;
+    width: 500px;
 }
